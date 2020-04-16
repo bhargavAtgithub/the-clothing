@@ -16,6 +16,8 @@ export const GroupContainer = styled.div`
   input[type='password'] {
     letter-spacing: 0.3em;
   }
+
+  
 `;
 
 export const FormInputContainer = styled.input`
@@ -38,6 +40,10 @@ export const FormInputContainer = styled.input`
   &:focus ~ label {
     ${shrinkLabelStyles}
   }
+
+  @media screen and (max-width: 800px) {
+    width: 80vw;
+}
 `;
 
 export const FormInputLabel = styled.label`
